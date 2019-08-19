@@ -1,0 +1,5 @@
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\bin\ASPNetMultiLanguage.dll
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\bin\ASPNetMultiLanguage.pdb
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.dll
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.pdb
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.w3-panel{
+	padding-left:20px;
+}
+.w3-panel:after,.w3-panel:before{content:"";display:table;clear:both; }
+.w3-pale-blue,.w3-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.w3-leftbar{border-left:6px solid #ccc!important}.w3-rightbar{border-right:6px solid #ccc!important}
+.w3-border-blue,.w3-hover-border-blue:hover{border-color:#2196F3!important}
+.w3-pale-red,.w3-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.w3-rightbar{border-right:6px solid #ccc!important}
+.w3-border-red,.w3-hover-border-red:hover{border-color:#f44336!important}
+
