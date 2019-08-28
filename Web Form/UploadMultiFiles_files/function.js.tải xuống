@@ -1,0 +1,246 @@
+   $(document).ready(function(){
+        
+        $("#webLogin").submit(function(){
+
+                $email = $("#webloginusername").val();                        
+              	$pass=$("#webloginpass").val();
+
+				if($email.length < 1)					
+				{
+					alert('Xin vui lòng nhập email của bạn');
+					$("#webloginusername").focus();
+					return false;
+				}
+				else
+				{
+					var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					$f = filter.test($email);
+					if(!$f)
+					{
+						alert('Xin vui lòng kiểm tra lại email của bạn');
+						$("#webloginusername").focus();
+						return false;
+					}
+
+				}
+				
+				if($pass.length<6)
+				{
+					alert('Xin vui lòng nhập mật khẩu phải có ít nhất 6 ký tự');
+					$("#webloginpass").focus();
+					return false;
+				}
+				return true;
+            
+        }); 
+     //Login Nomal
+
+     $("#webNomalLogin").submit(function(){
+
+                $email = $("#webloginusername1").val();                               
+              	$pass=$("#webloginpass1").val();              
+				if($email.length < 1)					
+				{
+					alert('Xin vui lòng nhập email của bạn');
+					$("#webloginusername").focus();
+					return false;
+				}
+				else
+				{
+					var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					$f = filter.test($email);
+					if(!$f)
+					{
+						alert('Xin vui lòng kiểm tra lại email của bạn');
+						$("#webloginusername").focus();
+						return false;
+					}
+
+				}
+				
+				if($pass.length<6)
+				{
+					alert('Xin vui lòng nhập mật khẩu phải có ít nhất 6 ký tự');
+					$("#webloginpass").focus();
+					return false;
+				}
+				return true;
+				
+        });  
+    //Login mobile
+   $("#mobileLogin").submit(function(){
+        	
+                $email = $("#mobileloginusername").val();                        
+              	$pass=$("#mobileloginpass").val();
+
+				if($email.length < 1)					
+				{
+					alert('Xin vui lòng nhập email của bạn');
+					$("#webloginpass").focus();
+					return false;
+				}
+				else
+				{
+					var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					$f = filter.test($email);
+					if(!$f)
+					{
+						alert('Xin vui lòng kiểm tra lại email của bạn');
+						$("#webloginpass").focus();
+						return false;
+					}
+
+				}
+				
+				if($pass.length<6)
+				{
+					alert('Xin vui lòng nhập mật khẩu phải có ít nhất 6 ký tự');
+					$("#mobileloginpass").focus();
+					return false;
+				}
+				return true;
+            
+        });  
+      //Regiter web    
+    $("#webRe").submit(function(){
+        	
+                $name =$("#txtFullName").val();
+                $email = $("#txFulltEmail").val();                        
+              	$pass = $('#txtFullPass').val();
+              	$rePass = $('#txtFullRepass').val();              	
+              	
+              	if($name.length<1){
+              		alert('Xin vui lòng nhập họ và tên');
+              		$('#txtFullName').focus();
+              		return false;
+              	}
+
+				if($email.length < 1)					
+				{
+					alert('Xin vui lòng nhập email của bạn');
+					$("#txtFullEmail").focus();
+					return false;
+				}
+				else
+				{
+					var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					$f = filter.test($email);
+					if(!$f)
+					{
+						alert('Xin vui lòng kiểm tra lại email của bạn');
+						$("#txtFullEmail").focus();
+						return false;
+					}
+
+				}
+				
+				if($pass.length<6)
+				{
+					alert('Xin vui lòng nhập mật khẩu phải có ít nhất 6 ký tự');
+					$("#txtFullPass").focus();
+					return false;
+				}
+				
+				if($pass!=$rePass){
+					alert('Mật khẩu nhập lại không trùng với mật khẩu đã nhập');
+					$('#txtFullRepass').focus();
+					return false;
+				}
+				return true;
+            
+        });      
+      //Regiter mobile    
+    $("#mobileRe").submit(function(){
+        	
+                $name =$("#txtMobileName").val();
+                $email = $("#txtMobileEmail").val();                        
+              	$pass = $('#txtMobilePass').val();
+              	$rePass = $('#txtMobileRepass').val();              	
+              	
+              	if($name.length<1){
+              		alert('Xin vui lòng nhập họ và tên');
+              		$('#txtFullName').focus();
+              		return false;
+              	}
+
+				if($email.length < 1)					
+				{
+					alert('Xin vui lòng nhập email của bạn');
+					$("#txtMobileEmail").focus();
+					return false;
+				}
+				else
+				{
+					var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					$f = filter.test($email);
+					if(!$f)
+					{
+						alert('Xin vui lòng kiểm tra lại email của bạn');
+						$("#txtMobileEmail").focus();
+						return false;
+					}
+
+				}
+				
+				if($pass.length<6)
+				{
+					alert('Xin vui lòng nhập mật khẩu phải có ít nhất 6 ký tự');
+					$("#txtMobilePass").focus();
+					return false;
+				}
+				
+				if($pass!=$rePass){
+					alert('Mật khẩu nhập lại không trùng với mật khẩu đã nhập');
+					$('#txtMobileRepass').focus();
+					return false;
+				}
+				return true;
+            
+        });      
+    //update password
+    $("#updatepassword").submit(function(){
+        	
+                                        
+              	$pass = $('#txtPass').val();
+              	$rePass = $('#txtRepass').val();              	
+				if($pass.length<6)
+				{
+					alert('Xin vui lòng nhập mật khẩu phải có ít nhất 6 ký tự');
+					$("#txtPass").focus();
+					return false;
+				}
+				
+				if($pass!=$rePass){
+					alert('Mật khẩu nhập lại không trùng với mật khẩu đã nhập');
+					$('#txtRepass').focus();
+					return false;
+				}
+				return true;
+            
+        });   
+
+     $("#findPassword").submit(function(){
+        	
+	      	$email = $('#txtEmail').val();
+	      	             	
+			if($email.length < 1)					
+			{
+				alert('Xin vui lòng nhập email của bạn');
+				$("#txtEmail").focus();
+				return false;
+			}
+			else
+			{
+				var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				$f = filter.test($email);
+				if(!$f)
+				{
+					alert('Xin vui lòng kiểm tra lại email của bạn');
+					$("#txtEmail").focus();
+					return false;
+				}
+
+			}
+        });      
+});
+

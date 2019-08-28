@@ -1,0 +1,8 @@
+D:\Hien\Study\ASP\CustomControl\ServerCustomerControl\ServerCustomerControl\FirstCustomControl\CustomControlSamples\bin\FirstCustomControl.dll
+D:\Hien\Study\ASP\CustomControl\ServerCustomerControl\ServerCustomerControl\FirstCustomControl\CustomControlSamples\bin\FirstCustomControl.pdb
+D:\Hien\Study\ASP\CustomControl\ServerCustomerControl\ServerCustomerControl\FirstCustomControl\CustomControlSamples\obj\Debug\FirstCustomControl.csprojAssemblyReference.cache
+D:\Hien\Study\ASP\CustomControl\ServerCustomerControl\ServerCustomerControl\FirstCustomControl\CustomControlSamples\obj\Debug\FirstCustomControl.Properties.Resources.resources
+D:\Hien\Study\ASP\CustomControl\ServerCustomerControl\ServerCustomerControl\FirstCustomControl\CustomControlSamples\obj\Debug\FirstCustomControl.csproj.GenerateResource.cache
+D:\Hien\Study\ASP\CustomControl\ServerCustomerControl\ServerCustomerControl\FirstCustomControl\CustomControlSamples\obj\Debug\FirstCustomControl.csproj.CoreCompileInputs.cache
+D:\Hien\Study\ASP\CustomControl\ServerCustomerControl\ServerCustomerControl\FirstCustomControl\CustomControlSamples\obj\Debug\FirstCustomControl.dll
+D:\Hien\Study\ASP\CustomControl\ServerCustomerControl\ServerCustomerControl\FirstCustomControl\CustomControlSamples\obj\Debug\FirstCustomControl.pdb

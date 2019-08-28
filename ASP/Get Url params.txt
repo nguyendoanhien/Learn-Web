@@ -1,0 +1,2 @@
+    Uri myUri = new Uri("http://www.example.com?param1=good&param2=bad");
+            string param1 = HttpUtility.ParseQueryString(myUri.Query).Get("param1");
